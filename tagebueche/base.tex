@@ -45,15 +45,18 @@
 
 \def\mktitle{%
   %\vspace*{\aboveskipchk}%
-  \hbox to \textwidth{%
-  \helvetica\itshape\bfseries\fontsize{24}{16}\selectfont
-    \color{NavyBlue} \day
-    \hfil
-  }%
+  %\hbox to \textwidth{%
+  {
+    \centering
+    \helvetica\itshape\bfseries\fontsize{24}{16}\selectfont
+    \color{NavyBlue} \day \newline{}
+    \hfill
+   }
   \hbox to \textwidth{
     \rule{\textwidth}{1pt}\par%
   }%
   \helvetica
+  \bl{1}
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
